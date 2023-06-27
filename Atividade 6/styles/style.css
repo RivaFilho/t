@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lora&family=PT+Sans+Narrow&family=Sigmar&display=swap');
+
+@font-face{
+    src: url(Fontes/Sigmar-Regular.ttf);
+    font-family: 'Sigmar', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lora', serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    margin: 0;
+    background-color: rgb(253, 2, 2);
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  
+  header {
+    background-color: #312121;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2rem;
+    font-size: 20px;
+     
+  }
+  
+  .menu-logos img {
+    height: 64px;
+    margin-right:32px;
+  }
+  .menu ul {
+    max-width: 500px;
+    padding: 0;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Sigmar', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  
+
+  
+  
+  footer {
+    background-color: #3a2020;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .footer-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 3rem;
+  }
+  
+  .footer-logos img {
+    height: 4rem;
+    margin-right: 2rem;
+  }
+  
